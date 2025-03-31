@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=AlCalc
+Comment=Al Calculator with OldSchool Interface
+Exec=alcalc
+Icon=accessories-calculator
+Terminal=false
+Type=Application
+Categories=Utility;Calculator;
+Keywords=calculator;math;
