@@ -9,7 +9,7 @@ from PyQt5.QtGui import QFont, QIcon, QPalette, QColor
 class ACalc(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("ACalc")
+        self.setWindowTitle("AlCalc")
         self.setWindowIcon(QIcon.fromTheme("accessories-calculator"))
         self.setMinimumSize(350, 450)
         
@@ -112,7 +112,7 @@ class ACalc(QMainWindow):
         
         help_menu = menubar.addMenu("&Help")
         
-        about_action = QAction(QIcon.fromTheme("help-about"), "&About ACalc", self)
+        about_action = QAction(QIcon.fromTheme("help-about"), "&About AlCalc", self)
         about_action.triggered.connect(self.show_about)
         help_menu.addAction(about_action)
         
@@ -399,7 +399,7 @@ class ACalc(QMainWindow):
     def show_about(self):
         about_text = """
         <h2>ACalc</h2>
-        <p>Advanced Calculator with OldSchool Interface</p>
+        <p>Al Calculator with OldSchool Interface</p>
         <p>Version beta 2.4</p>
         <p>Created for the AMNY Project</p>
         <p>Features:</p>
@@ -411,7 +411,7 @@ class ACalc(QMainWindow):
         </ul>
         <p>© 2025 AMNY Project</p>
         """
-        QMessageBox.about(self, "About ACalc", about_text)
+        QMessageBox.about(self, "About AlCalc", about_text)
         
     def keyPressEvent(self, event):
         key = event.key()
