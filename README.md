@@ -1,2 +1,2 @@
-# ACalc
-ACalc - QT calculator created for AMNY Project {/}
+# AlCalc
+AlCalc - QT calculator created for AMNY Project {/}
