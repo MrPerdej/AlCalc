@@ -398,7 +398,7 @@ class ACalc(QMainWindow):
         
     def show_about(self):
         about_text = """
-        <h2>ACalc</h2>
+        <h2>AlCalc</h2>
         <p>Al Calculator with OldSchool Interface</p>
         <p>Version beta 2.4</p>
         <p>Created for the AMNY Project</p>
